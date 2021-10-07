@@ -12,22 +12,22 @@ function change(){
         ress.style.color="red";
     }
     else if(k <= 0){
-        document.body.style.backgroundImage = "url('/images/kep.jpg')";
+        document.body.style.backgroundImage = "url('/grafika-beadand-/images/kep.jpg')";
         res.style.color="black";
         ress.style.color="black";
     }
     else if(k >0 && k <= 10){
-        document.body.style.backgroundImage = "url('/images/kep2.jpeg')";
+        document.body.style.backgroundImage = "url('/grafika-beadand-/images/kep2.jpeg')";
         res.style.color="yellow";
         ress.style.color="yellow";
     }
     else if(k >10 && k<= 20){
-        document.body.style.backgroundImage = "url('/images/kep3.jpeg')";
+        document.body.style.backgroundImage = "url('/grafika-beadand-/images/kep3.jpeg')";
         res.style.color="red";
         ress.style.color="red";
     }
     else if(k >= 30){
-        document.body.style.backgroundImage = "url('/images/kep5.jpeg')";
+        document.body.style.backgroundImage = "url('/grafika-beadand-/images/kep5.jpeg')";
         res.style.color="green";
         ress.style.color="green";       
     }
