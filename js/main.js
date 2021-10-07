@@ -17,7 +17,7 @@ function change(){
         ress.style.color="black";
     }
     else if(k >0 && k <= 10){
-        document.body.style.backgroundImage = "url('/grafika-beadand-/images/kep2.jpeg')";
+        document.body.style.backgroundImage = "url('/grafika-beadand-/images/kep1.jpeg')";
         res.style.color="yellow";
         ress.style.color="yellow";
     }
