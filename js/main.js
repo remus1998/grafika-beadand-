@@ -78,7 +78,7 @@ function change(){
         ress.style.color="green";   
         sdh.style.color="green";    
         document.getElementById("mn-btn").style.borderColor="green";    
-        document.getElementById("mn-btn").style.color="green";  
+        document.getElementById("mn-btn").style.color="";  
         document.getElementById("mn-btn").style.backgroundColor="white";    
     }
 
