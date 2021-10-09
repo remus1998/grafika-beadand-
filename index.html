@@ -6,12 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/grafika-beadand-/css/main.css" />
     <script src="/grafika-beadand-/js/main.js"></script>
+    <script src="/grafika-beadand-/js/open.js"></script>
     <title>Converter</title>
   </head>
   <body>
-    <h1 id="ress">Celsius Converter</h1>
-    <input id="data" type="text" placeholder="Give me the celsius" />
-    <h2 id="res"></h2>
-    <button id="mn-btn" onclick="change()">Change</button>
+    <h1 id="ress">All in One Converter</h1>
+    <div id="MainContainer">
+      <button onclick="main()">Length Converter</button>
+      <div id="first">
+        <h1>Temperature Converter</h1>
+        <input id="data" type="text" placeholder="0" />
+        <h2 id="res"></h2>
+        <h2 id="back"></h2>
+        <h2 id="rea"></h2>
+        <h2 id="ran"></h2>
+        <button id="mn-btn" onclick="change()">Change</button>
+      </div>
+    </div>
   </body>
 </html>
