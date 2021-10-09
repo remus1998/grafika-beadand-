@@ -20,13 +20,18 @@ function change(){
      document.getElementById('rans').innerText = `${c} C = ${ran} Ra`;
      
     if(k <= -20){
+        //mn-btn  document.getElementById("myDiv").style.borderColor = "green purple"; 
+
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep4.jpeg')";
         res.style.color="yellow";
         back.style.color="yellow";
         reas.style.color="yellow";
         rans.style.color="yellow";
         ress.style.color="yellow";
-        sdh.style.color="yellow";    
+        sdh.style.color="yellow";
+        document.getElementById("mn-btn").style.borderColor="yellow";    
+        document.getElementById("mn-btn").style.color="yellow";  
+        document.getElementById("mn-btn").style.backgroundColor="lightgray";    
     }
     else if(k <= 0){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep.jpg')";
@@ -36,6 +41,9 @@ function change(){
         rans.style.color="black";
         ress.style.color="black";
         sdh.style.color="black";    
+        document.getElementById("mn-btn").style.borderColor="black";    
+        document.getElementById("mn-btn").style.color="black";  
+        document.getElementById("mn-btn").style.backgroundColor="white";    
     }
     else if(k >0 && k <= 10){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep1.jpeg')";
@@ -45,6 +53,9 @@ function change(){
         rans.style.color="yellow";
         ress.style.color="yellow";
         sdh.style.color="yellow";    
+        document.getElementById("mn-btn").style.borderColor="yellow";    
+        document.getElementById("mn-btn").style.color="yellow";  
+        document.getElementById("mn-btn").style.backgroundColor="lightgray";    
     }
     else if(k >10 && k<= 20){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep3.jpeg')";
@@ -54,6 +65,9 @@ function change(){
         rans.style.color="red";
         ress.style.color="red";
         sdh.style.color="red";    
+        document.getElementById("mn-btn").style.borderColor="red";    
+        document.getElementById("mn-btn").style.color="red";  
+        document.getElementById("mn-btn").style.backgroundColor="white";    
     }
     else if(k >= 30){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep5.jpeg')";
@@ -63,6 +77,9 @@ function change(){
         rans.style.color="green";
         ress.style.color="green";   
         sdh.style.color="green";    
+        document.getElementById("mn-btn").style.borderColor="green";    
+        document.getElementById("mn-btn").style.color="green";  
+        document.getElementById("mn-btn").style.backgroundColor="white";    
     }
 
 
