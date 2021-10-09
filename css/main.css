@@ -35,7 +35,7 @@ body #MainContainer {
 
 body #MainContainer #first {
   width: 80%;
-  height: 820px;
+  height: 800px;
   border-radius: 10px;
   -webkit-box-shadow: 8px 8px 5px gray;
           box-shadow: 8px 8px 5px gray;
@@ -55,6 +55,10 @@ body #MainContainer #second {
           align-items: center;
   margin-bottom: 10px;
   text-align: center;
+}
+
+body #MainContainer #second h2 {
+  font-size: 18px;
 }
 
 body #MainContainer #second #sdh {

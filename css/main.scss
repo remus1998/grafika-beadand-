@@ -23,7 +23,7 @@ body {
 
     #first {
       width: 80%;
-      height: 820px;
+      height: 800px;
       //border: 4px solid lightgray;
       border-radius: 10px;
       box-shadow: 8px 8px 5px gray;
@@ -39,6 +39,10 @@ body {
       align-items: center;
       margin-bottom: 10px;
       text-align: center;
+
+      h2 {
+        font-size: 18px;
+      }
 
       #sdh {
         margin-top: 5px;
