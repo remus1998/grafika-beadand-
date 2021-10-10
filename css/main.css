@@ -14,6 +14,12 @@ body h1 {
   text-align: center;
 }
 
+@media screen and (min-width: 1400px) {
+  body #hnone {
+    display: none;
+  }
+}
+
 body #MainContainer {
   margin-top: 30px;
   width: 100%;
@@ -43,6 +49,13 @@ body #MainContainer #first {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 10px;
+}
+
+@media screen and (min-width: 1400px) {
+  body #MainContainer #first {
+    width: 90%;
+    height: 750px;
+  }
 }
 
 body #MainContainer #second {

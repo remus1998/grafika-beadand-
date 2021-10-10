@@ -22,7 +22,7 @@ function change(){
     if(k <= -20){
         //mn-btn  document.getElementById("myDiv").style.borderColor = "green purple"; 
 
-        document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep4.jpeg')";
+        document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep6.jpg')";
         res.style.color="yellow";
         back.style.color="yellow";
         reas.style.color="yellow";
