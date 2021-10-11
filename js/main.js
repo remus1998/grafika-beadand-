@@ -1,4 +1,7 @@
 //a célom az hogy a celziust átváltsam fareheitbe a váltószám az celzius x1.8 + 32;
+function main(){
+    window.open('https://remus1998.github.io/ConverterGatherer/',"_self") 
+  }
 
 function change(){
  
@@ -134,9 +137,7 @@ function reset(){
     document.getElementById('first').style.backgroundImage = "none";
 }window.addEventListener('load',reset)
 
-function main(){
-    window.open('https://remus1998.github.io/ConverterGatherer/') 
-  }
+
 
 
   
