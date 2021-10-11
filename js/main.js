@@ -2,7 +2,7 @@
 function change(){
     //celsius to farenheit
     let c = document.getElementById('data').value;
-    let f = (c * 1.8) + 32;
+    let f = Math.round (c * 1.8) + 32;
     document.getElementById('res').innerText = `${c} C = ${f} F`;
     let k = parseInt(c);
     document.getElementById('ress');
