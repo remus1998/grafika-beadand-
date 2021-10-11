@@ -78,7 +78,8 @@ body #MainContainer #second #data {
 }
 
 body #MainContainer #second #mn-btn,
-body #MainContainer #second #rstbtn {
+body #MainContainer #second #rstbtn,
+body #MainContainer #second #backbtn {
   width: 50%;
   height: 10%;
   border: 3px solid white;
