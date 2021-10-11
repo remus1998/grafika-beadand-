@@ -118,7 +118,7 @@ function change2(){
 //reset button
 
 function reset(){
-    document.getElementById('data').value = "0";
+    document.getElementById('data').value = "";
     document.getElementById('res').innerText = `0 C = 0 F`;
     document.getElementById('back').innerText = `0 C = 0 K`;
     document.getElementById('reas').innerText = `0 C = 0 Rea`;
