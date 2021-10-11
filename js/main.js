@@ -135,7 +135,7 @@ function reset(){
 }window.addEventListener('load',reset)
 
 function main(){
-    window.open('https://remus1998.github.io/ConverterGatherer/','_blank') 
+    window.open('https://remus1998.github.io/ConverterGatherer/') 
   }window.addEventListener('load',main)
 
 
