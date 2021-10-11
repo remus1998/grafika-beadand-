@@ -45,11 +45,11 @@ body #MainContainer #first {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1400px) and (max-width: 1650px) {
   body #MainContainer #first {
-    margin-top: 20px;
+    margin-top: 10px;
     width: 90%;
-    height: 750px;
+    height: 730px;
   }
 }
 
