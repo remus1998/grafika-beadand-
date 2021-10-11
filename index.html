@@ -22,7 +22,12 @@
         <div id="second">
           <h3 id="sdh">Adj meg egy számot!</h3>
           <br />
-          <input id="data" type="text" placeholder="Give me the Celsius" />
+          <input
+            id="data"
+            type="text"
+            placeholder="Give me the Celsius"
+            oninput="this.value === '' ?  document.getElementById('mn-btn').disabled = true : document.getElementById('mn-btn').disabled = false"
+          />
           <br />
           <h2 id="res"></h2>
           <br />
@@ -32,7 +37,7 @@
           <br />
           <h2 id="rans"></h2>
           <br />
-          <button id="mn-btn" onclick="change()">Change</button> <br />
+          <button id="mn-btn" disabled onclick="change()">Change</button>
           <button id="rstbtn" onclick="reset()">Reset</button>
         </div>
       </div>
