@@ -17,10 +17,9 @@ function change(){
  
      //celsius to Rankine
      let ran = (k + 273.15) * 9/5;
-     document.getElementById('rans').innerText = `${c} C = ${ran} Ra`;
-     
+     document.getElementById('rans').innerText = `${c} C = ${ran} Ra`; 
     if(k <= -20){
-        //mn-btn  document.getElementById("myDiv").style.borderColor = "green purple"; 
+        //mn-btn  document.getElementById("myDiv").style.borderColor = "green purple";  rstbtn
 
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep6.jpg')";
         res.style.color="yellow";
@@ -31,7 +30,11 @@ function change(){
         sdh.style.color="yellow";
         document.getElementById("mn-btn").style.borderColor="yellow";    
         document.getElementById("mn-btn").style.color="yellow";  
-        document.getElementById("mn-btn").style.backgroundColor="lightgray";    
+        document.getElementById("mn-btn").style.backgroundColor="lightgray";  
+
+        document.getElementById("rstbtn").style.borderColor="yellow";    
+        document.getElementById("rstbtn").style.color="yellow";  
+        document.getElementById("rstbtn").style.backgroundColor="lightgray";      
     }
     else if(k <= 0){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep.jpg')";
@@ -44,6 +47,10 @@ function change(){
         document.getElementById("mn-btn").style.borderColor="black";    
         document.getElementById("mn-btn").style.color="black";  
         document.getElementById("mn-btn").style.backgroundColor="white";    
+
+        document.getElementById("rstbtn").style.borderColor="black";    
+        document.getElementById("rstbtn").style.color="black";  
+        document.getElementById("rstbtn").style.backgroundColor="white";      
     }
     else if(k >0 && k <= 10){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep1.jpeg')";
@@ -56,6 +63,10 @@ function change(){
         document.getElementById("mn-btn").style.borderColor="yellow";    
         document.getElementById("mn-btn").style.color="yellow";  
         document.getElementById("mn-btn").style.backgroundColor="lightgray";    
+
+        document.getElementById("rstbtn").style.borderColor="yellow";    
+        document.getElementById("rstbtn").style.color="yellow";  
+        document.getElementById("rstbtn").style.backgroundColor="lightgray";      
     }
     else if(k >10 && k<= 20){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep3.jpeg')";
@@ -68,6 +79,10 @@ function change(){
         document.getElementById("mn-btn").style.borderColor="red";    
         document.getElementById("mn-btn").style.color="red";  
         document.getElementById("mn-btn").style.backgroundColor="white";    
+
+        document.getElementById("rstbtn").style.borderColor="red";    
+        document.getElementById("rstbtn").style.color="red";  
+        document.getElementById("rstbtn").style.backgroundColor="white";      
     }
     else if(k >= 30){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep5.jpeg')";
@@ -80,6 +95,10 @@ function change(){
         document.getElementById("mn-btn").style.borderColor="green";    
         document.getElementById("mn-btn").style.color="green";  
         document.getElementById("mn-btn").style.backgroundColor="white";    
+
+        document.getElementById("rstbtn").style.borderColor="green";    
+        document.getElementById("rstbtn").style.color="green";  
+        document.getElementById("rstbtn").style.backgroundColor="white";      
     }
 
 
@@ -95,6 +114,31 @@ function change2(){
 
 }window.addEventListener('load',change2)
 */
+
+//reset button
+
+function reset(){
+    document.getElementById('res').innerText = `0 C = 0 F`;
+    document.getElementById('back').innerText = `0 C = 0 K`;
+    document.getElementById('reas').innerText = `0 C = 0 Rea`;
+    document.getElementById('rans').innerText = `0 C = 0 Ra`;
+    res.style.color="black";
+    back.style.color="black";
+    reas.style.color="black";
+    rans.style.color="black";
+    ress.style.color="black";
+    sdh.style.color="black";
+
+    document.getElementById("mn-btn").style.borderColor="white";    
+    document.getElementById("mn-btn").style.color="white";  
+    document.getElementById("mn-btn").style.backgroundColor="lightgray";  
+
+    document.getElementById("rstbtn").style.borderColor="white";    
+    document.getElementById("rstbtn").style.color="white";  
+    document.getElementById("rstbtn").style.backgroundColor="lightgray";      
+
+    document.getElementById('first').style.backgroundImage = "none";
+}window.addEventListener('load',reset)
 
 
   
