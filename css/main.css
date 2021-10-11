@@ -14,12 +14,6 @@ body h1 {
   text-align: center;
 }
 
-@media screen and (max-width: 1400px) {
-  body #hnone {
-    display: none;
-  }
-}
-
 body #MainContainer {
   margin-top: 30px;
   width: 100%;
@@ -53,6 +47,7 @@ body #MainContainer #first {
 
 @media screen and (max-width: 1400px) {
   body #MainContainer #first {
+    margin-top: 20px;
     width: 90%;
     height: 750px;
   }
