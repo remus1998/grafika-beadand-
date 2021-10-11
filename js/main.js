@@ -12,7 +12,7 @@ function change(){
      document.getElementById('back').innerText = `${c} C = ${kelv} K`;
  
      //celsius to Reaumur
-     let rea = k * 0.8;
+     let rea =  Math.round (k * 0.8);
      document.getElementById('reas').innerText = `${c} C = ${rea} Rea`;
  
      //celsius to Rankine
