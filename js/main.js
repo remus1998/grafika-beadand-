@@ -8,7 +8,7 @@ function change(){
     document.getElementById('ress');
 
      //celsius to kelvin
-     let kelv = k + 273.15;
+     let kelv = Math.round (k + 273.15);
      document.getElementById('back').innerText = `${c} C = ${kelv} K`;
  
      //celsius to Reaumur
@@ -16,7 +16,7 @@ function change(){
      document.getElementById('reas').innerText = `${c} C = ${rea} Rea`;
  
      //celsius to Rankine
-     let ran = (k + 273.15) * 9/5;
+     let ran = Math.round(k + 273.15) * 9/5;
      document.getElementById('rans').innerText = `${c} C = ${ran} Ra`; 
     if(k <= -20){
         //mn-btn  document.getElementById("myDiv").style.borderColor = "green purple";  rstbtn
@@ -118,6 +118,7 @@ function change2(){
 //reset button
 
 function reset(){
+    document.getElementById('data').value = "0";
     document.getElementById('res').innerText = `0 C = 0 F`;
     document.getElementById('back').innerText = `0 C = 0 K`;
     document.getElementById('reas').innerText = `0 C = 0 Rea`;
