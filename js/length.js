@@ -1,3 +1,7 @@
+function main(){
+    window.open('https://remus1998.github.io/ConverterGatherer/', "_self") 
+  }
+
 function change2(){
     let km = document.getElementById('dt').value;
 
@@ -29,6 +33,3 @@ function reset(){
     
 }window.addEventListener('load',reset)
 
-function main(){
-    window.open('https://remus1998.github.io/ConverterGatherer/', "_self") 
-  }window.addEventListener('load',main)
