@@ -39,7 +39,14 @@ function change(){
 
         document.getElementById("rstbtn").style.borderColor="yellow";    
         document.getElementById("rstbtn").style.color="yellow";  
-        document.getElementById("rstbtn").style.backgroundColor="lightgray";      
+        document.getElementById("rstbtn").style.backgroundColor="lightgray";   
+
+        document.getElementById("backbtn").style.borderColor="yellow";    
+        document.getElementById("backbtn").style.color="yellow";  
+        document.getElementById("backbtn").style.backgroundColor="lightgray";   
+        
+        
+        
     }
     else if(k <= 0){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep.jpg')";
@@ -55,7 +62,11 @@ function change(){
 
         document.getElementById("rstbtn").style.borderColor="black";    
         document.getElementById("rstbtn").style.color="black";  
-        document.getElementById("rstbtn").style.backgroundColor="white";      
+        document.getElementById("rstbtn").style.backgroundColor="white";   
+        
+        document.getElementById("backbtn").style.borderColor="black";    
+        document.getElementById("backbtn").style.color="black";  
+        document.getElementById("backbtn").style.backgroundColor="white";   
     }
     else if(k >0 && k <= 10){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep1.jpeg')";
@@ -71,7 +82,11 @@ function change(){
 
         document.getElementById("rstbtn").style.borderColor="yellow";    
         document.getElementById("rstbtn").style.color="yellow";  
-        document.getElementById("rstbtn").style.backgroundColor="lightgray";      
+        document.getElementById("rstbtn").style.backgroundColor="lightgray";   
+        
+        document.getElementById("backbtn").style.borderColor="yellow";    
+        document.getElementById("backbtn").style.color="yellow";  
+        document.getElementById("backbtn").style.backgroundColor="lightgray";   
     }
     else if(k >10 && k<= 20){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep3.jpeg')";
@@ -87,7 +102,11 @@ function change(){
 
         document.getElementById("rstbtn").style.borderColor="red";    
         document.getElementById("rstbtn").style.color="red";  
-        document.getElementById("rstbtn").style.backgroundColor="white";      
+        document.getElementById("rstbtn").style.backgroundColor="white";  
+        
+        document.getElementById("backbtn").style.borderColor="red";    
+        document.getElementById("backbtn").style.color="red";  
+        document.getElementById("backbtn").style.backgroundColor="white";   
     }
     else if(k >= 30){
         document.getElementById('first').style.backgroundImage = "url('/grafika-beadand-/images/kep5.jpeg')";
@@ -103,7 +122,11 @@ function change(){
 
         document.getElementById("rstbtn").style.borderColor="green";    
         document.getElementById("rstbtn").style.color="green";  
-        document.getElementById("rstbtn").style.backgroundColor="white";      
+        document.getElementById("rstbtn").style.backgroundColor="white";    
+        
+        document.getElementById("backbtn").style.borderColor="green";    
+        document.getElementById("backbtn").style.color="green";  
+        document.getElementById("backbtn").style.backgroundColor="white";   
     }
 
 

@@ -7,9 +7,9 @@ function change2(){
 
     //km - m
 
+    let k = parseInt(km);
     let m = km * 1000;
     document.getElementById('test').innerText= `${km} Km = ${m} m`;
-    let k = parseInt(km);
     //km - dm
     let dm = k * 10000;
     document.getElementById('test2').innerText= `${km} Km = ${dm} dm`;
