@@ -38,7 +38,9 @@ body #mainContainer #contentContainer {
           box-shadow: 8px 8px 5px gray;
 }
 
-body #mainContainer #contentContainer #back {
+body #mainContainer #contentContainer #back,
+body #mainContainer #contentContainer #mn-btn,
+body #mainContainer #contentContainer #rst-btn {
   margin: 5px;
   width: 50px;
   height: 25px;

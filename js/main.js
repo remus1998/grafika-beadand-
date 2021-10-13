@@ -155,7 +155,11 @@ function reset(){
 
     document.getElementById("rstbtn").style.borderColor="white";    
     document.getElementById("rstbtn").style.color="white";  
-    document.getElementById("rstbtn").style.backgroundColor="lightgray";      
+    document.getElementById("rstbtn").style.backgroundColor="lightgray"; 
+    
+    document.getElementById("backbtn").style.borderColor="white";    
+    document.getElementById("backbtn").style.color="white";  
+    document.getElementById("backbtn").style.backgroundColor="lightgray"; 
 
     document.getElementById('first').style.backgroundImage = "none";
 }window.addEventListener('load',reset)

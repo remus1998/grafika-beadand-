@@ -3,33 +3,43 @@ function main(){
   }
 
 function change2(){
-    let km = document.getElementById('dt').value;
+    let m = document.getElementById('dt').value;
 
-    //km - m
+    //m - km
+    let k = parseInt(m);
+    let km = m /1000;
+    document.getElementById('test').innerText =`${k} m = ${km} km`;
 
-    let k = parseInt(km);
-    let m = km * 1000;
-    document.getElementById('test').innerText= `${km} Km = ${m} m`;
-    //km - dm
-    let dm = k * 10000;
-    document.getElementById('test2').innerText= `${km} Km = ${dm} dm`;
+    //m - dm
+    let dm = m * 10;
+    document.getElementById('test2').innerText=`${k} m = ${dm} dm`;
 
-    //km - cm
-    let cm = k * 100000;
-    document.getElementById('test3').innerText= `${km} Km = ${cm} cm`;
+    //m - cm
+    let cm = m * 100;
+    document.getElementById('test3').innerText=`${k} m = ${cm} cm`;
 
-    let mm = k * 1000000;
-    document.getElementById('test4').innerText= `${km} Km = ${mm} mm`;
+    //m - mm
+    let mm = m * 1000;
+    document.getElementById('test4').innerText= `${k} m = ${mm} mm`;
+   
+    //m - yd
+    let yd =(m * 1.093613).toFixed(2);
+    document.getElementById('test5').innerText= `${k} m = ${yd} yd`;
+
+    //m - Miles
+    let M =(m * 0.000621).toFixed(4);
+    document.getElementById('test6').innerText=`${k} m = ${M} miles`; 
 
 }window.addEventListener('load',change2)
 
 
 function reset(){
-    document.getElementById('test').innerText= `0 Km = 0 m`;
-    document.getElementById('test2').innerText= `0 Km = 0 deciméter`;
-    document.getElementById('test3').innerText= `0 Km = 0 centiméter`;
-    document.getElementById('test4').innerText= `0 Km = 0 milliméter`;
-    
+    document.getElementById('test').innerText= `0 m = 0 km`;
+    document.getElementById('test2').innerText= `0 m = 0 dm`;
+    document.getElementById('test3').innerText= `0 m = 0 cm`;
+    document.getElementById('test4').innerText= `0 m = 0 mm`;
+    document.getElementById('test5').innerText= `0 m = 0 yd`;
+    document.getElementById('test6').innerText= `0 m = 0 miles`;
     
 }window.addEventListener('load',reset)
 
