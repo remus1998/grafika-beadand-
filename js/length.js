@@ -11,15 +11,15 @@ function change2(){
     document.getElementById('test').innerText =`${k} m = ${km} km`;
 
     //m - dm
-    let dm = (m * 10).toFixed(4);
+    let dm = (m * 10).toFixed(2);
     document.getElementById('test2').innerText=`${k} m = ${dm} dm`;
 
     //m - cm
-    let cm = (m * 100).toFixed(4);
+    let cm = (m * 100).toFixed(2);
     document.getElementById('test3').innerText=`${k} m = ${cm} cm`;
 
     //m - mm
-    let mm = (m * 1000).toFixed(4);
+    let mm = (m * 1000).toFixed(2);
     document.getElementById('test4').innerText= `${k} m = ${mm} mm`;
    
     //m - yd
