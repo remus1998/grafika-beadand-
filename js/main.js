@@ -131,7 +131,6 @@ function change(){
 
 
 
-
 }window.addEventListener('load',change)
 
 //reset button
