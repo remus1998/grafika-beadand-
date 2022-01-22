@@ -1,6 +1,6 @@
 //a célom az hogy a celziust átváltsam fareheitbe a váltószám az celzius x1.8 + 32;
 function main(){
-    window.open('https://remus1998.github.io/ConverterGatherer/',"_self") 
+    window.open('https://remus1998.github.io/ConverterGatherer/index.html',"_self") 
   }
 
 function change(){
@@ -23,6 +23,8 @@ function change(){
      //celsius to Rankine
      let ran = Math.round(k + 273.15) * 9/5;
      document.getElementById('rans').innerText = `${c} C = ${ran} Ra`; 
+
+     
 
     if(k <= -20){
        
